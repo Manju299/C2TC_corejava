@@ -8,5 +8,7 @@ public class Mul  extends Mytest {
 		int c=a*b;
 		System.out.println(c);
 	}
+	
+	
 
 }

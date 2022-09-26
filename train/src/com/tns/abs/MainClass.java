@@ -8,6 +8,7 @@ public class MainClass {
 		Mul m = new Mul();
 		s.cal(2, 4);
 		m.cal(5, 5);
+		
 
 	}
 
