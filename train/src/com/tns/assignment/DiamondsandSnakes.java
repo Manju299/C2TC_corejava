@@ -1,4 +1,4 @@
-package com.assignment.org;
+package com.tns.assignment;
 
 import java.util.Scanner;
 

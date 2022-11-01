@@ -1,4 +1,4 @@
-package com.static1;
+package com.tns.static1;
 
 public class Newblock {
 	{

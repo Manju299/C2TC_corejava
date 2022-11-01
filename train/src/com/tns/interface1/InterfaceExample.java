@@ -1,4 +1,4 @@
-package com.interface1;
+package com.tns.interface1;
 interface a {
 	void msg();
 }
