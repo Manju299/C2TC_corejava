@@ -6,7 +6,7 @@ public class SortNegativeNum {
 		
 		
 		// TODO Auto-generated method stub
-		int arr[] = {1,-3,-4,2,4,5,6,9,0};
+		int arr[] = {1,-3,-4,-2,-5,-1};
 		int n = arr.length;
 		sortNegtvs(arr,n);
 		for(int i = 0;i<n;i++) {
@@ -25,6 +25,11 @@ public class SortNegativeNum {
 				if(i !=j) {
 					temp = arr[i];
 					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+				if(arr[0]>arr[j]) {
+					temp = arr[0];
+					arr[0] = arr[j];
 					arr[j] = temp;
 				}
 				j++;				

@@ -1,4 +1,4 @@
-package com.tns.dsa;
+package com.tns.dsa.strings;
 
 public class Pallindrome {
 

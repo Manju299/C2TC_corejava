@@ -1,0 +1,16 @@
+reverser a string 
+public static void main(String args[]){
+	 String str = "Hello";
+	 Char[] str1 = str.toCharArray();
+	 int left,right = str1.lenght() - 1;
+	 
+	 for (left = 0; left < right; left++,right--){
+	 		int temp = str1[left];
+	 		str1[left] = str[right];
+	 		str[right] = temp;
+	 }
+	 for(Char c:str1){
+	 System.out.println(c);
+	 }
+	 
+	 		
